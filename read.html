@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Registration Form</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Event Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" required>
+
+            <label for="rollNo">Roll No:</label>
+            <input type="text" id="rollNo" name="rollNo" required>
+
+            <label for="contactNo">Contact No:</label>
+            <input type="tel" id="contactNo" name="contactNo" required>
+
+            <label for="event">Event Name:</label>
+            <select id="event" name="event" required>
+                <option value="" disabled selected>Select an event</option>
+                <option value="event1">Dance</option>
+                <option value="event2">Singing</option>
+                <option value="event3">Painting</option>
+                <option value="event3">Eassy Writing</option>
+                <option value="event3"> Technical Quiz</option>
+                <option value="event3">Debate</option>
+                <option value="event3">Baketball</option>
+                <option value="event3">Cricket</option>
+                <option value="event3">Football</option>
+                <option value="event3">Kho kho</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>

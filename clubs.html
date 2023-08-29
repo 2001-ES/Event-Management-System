@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Roboto, sans-serif, arial;
+            background: #f0f3fa;
+            text-align: justify;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #000;
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        /* Remove extra left and right margins, due to padding */
+        
+        .row {
+            margin: 0 -5px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive columns */
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        /* Style the counter cards */
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #0f85e6;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="width-100 top-header">
+        <div class="container">
+            <div class="width-100">
+                <b class="news-list"> NEWS:</b>
+                <marquee class="headquote">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
+            </div>
+        </div>
+    </div>
+    <div class="width-100 header-menu">
+        <div class="container">
+            <div class="logo"><img src="images/logo.jpg" height="80px" width="80px">
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="register.html">Student Register</a></li>
+                    <li><a href="login.html">Admin Login</a></li>
+
+
+            </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <h2>Abhiruchi Club</h2>
+    <br>
+
+    <p>ABHIRUCHI (The Hobby Club) provides an appropriate platform to strive the excellence and revealed the true personality of leadership.ABHIRUCHI (The Hobby Club) channelizes each and every talent of student to unleash the energy present in and allow
+        them to discover their interests. A fantastic endeavour of our students, the ABHIRUCHI works under the guidance of Executive Chairperson Ms. Sonal Gautam. Every club consists of One CEO (Faculty Mentor) and a presidential team contains President,
+        Vice President, Secretary, Joint- Secretary ,Treasurer and executives.</p>
+    <br>
+    <br><br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h3>RockOn Club</h3>
+                <h4>(Music and Dance club)</h4>
+                <img src="images/dance.jpg" height="170px" width="170px" alt="">
+                <p>This club encourages enjoying all aspects of the performing arts (singing, dancing, and acting) as they learn the skills to showcase their talents. The mission of this Club is to give students an opportunity to familiarize themselves with
+                    art, culture and music.It provides an appropriate platform for students to show there talent.</p>
+                <a href="read.html">Register</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Creative Club</h3>
+                <h4>(The Art club)</h4>
+                <img src="images/art.jpg" height="170px" width="170px" alt="">
+                <p>It emphasis on artistic visions painting, modelling, sculpture making origami and welcomes beliefs in color. It provide creative way of colors, which inspire the students to work with confidence and motivate others through their artistic
+                    vision. Because individuality of expression is the beginning and end of all art.</p>
+                <a href="read.html">Register</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>InfoTech Club</h3>
+                <h4>(Technology Club)</h4>
+                <img src="images/info.jpg" height="170px" width="170px" alt="">
+                <p>InfoTech aims to promote technology and inculcate technical skills among the students. I-tech is constantly working to make the students more technically sound and efficient by organizing different workshops and seminars on various topics;
+                    they provide a platform for students to showcase their technical skills.</p>
+                <a href="read.html">Register</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>STRIDE</h3>
+                <h4>(Sports Club)</h4>
+                <img src="images/sports.jpg" height="170px" width="170px" alt="">
+                <p>This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and
+                    recreational activities. This Club provides a valuable learning experience through student involvement .
+                </p>
+                <a href="read.html">Register</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
